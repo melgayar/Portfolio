@@ -242,9 +242,11 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: left;
+    font-size: 14pt; }
     main .lg-heading {
       line-height: 1;
+      font-size: 3rem;
       margin-bottom: 1rem; }
   ul.menu-nav,
   div.menu-branding {
@@ -272,7 +274,12 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  .lg-heading {
+    line-height: 1;
+    font-size: 3rem;
+    margin-bottom: 1rem; }
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 10vh;
+    text-align: left; }
   .projects {
     grid-template-columns: 1fr; } }
